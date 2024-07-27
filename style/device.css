@@ -1,0 +1,105 @@
+/* small device */
+@media screen and (max-width:576px) {
+    .hamburg{
+        display: block;
+        margin-right: 50px;
+    }
+    .hidden{
+        display: none;
+    }
+    .nav-name{
+        font-size: 0.9rem;
+    }
+
+    
+    .banner{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        /* margin-left: 0;
+        margin-right: 0; */
+        
+    }
+    .banner-text{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .banner h2{
+        font-size: 1.7rem;
+        /* text-align: center; */
+    }
+    .banner p{
+        font-size: 0.9rem;
+        /* text-align: center; */
+    }
+
+    .banner-img{
+        width: 100%;
+    }
+    .btn{
+        width: 200px;
+        height: 50px;
+    }
+    .card{
+        grid-template-columns: repeat(1,1fr);
+        
+        
+    }
+    .icon{
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows: repeat(12,1fr);
+        gap: 10px;
+        /* justify-items: center; */
+        /* align-items: center; */
+        /* justify-content: center; */
+        align-content: center;
+        /* border: 2px solid red; */
+        
+        margin: 0 auto;
+    }
+    .one{
+        grid-column: span 3;
+        grid-row: span 6;
+    }
+    .two{
+        grid-column: span 3;
+        grid-row: span 6;
+    }
+    .three{
+        grid-column: span 3;
+        grid-row: span 6;
+    }
+    .four{
+        grid-column: span 3;
+        grid-row: span 6;
+    }
+    .five{
+        grid-column: span 4;
+        grid-row: span 6;
+    }
+    .six{
+        grid-column: span 4;
+        grid-row: span 6;
+    }
+    .seven{
+        grid-column: span 4;
+        grid-row: span 6;
+    }
+    .icon img{
+        width: 90%;
+        padding: 5px;
+
+    }
+    hr{
+        display: none;
+    }
+    .section-2{
+        width: 90%;
+        margin-top: 50px;
+    }
+}
